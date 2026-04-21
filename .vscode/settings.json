@@ -1,0 +1,6 @@
+{
+  "github.copilot.chat.agent.terminal.allowList": {
+    "git add": true,
+    "git commit": true
+  }
+}

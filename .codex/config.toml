@@ -1,0 +1,8 @@
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[[shell_environment_policy.allowed_commands]]
+pattern = "^git add( .*)?$"
+
+[[shell_environment_policy.allowed_commands]]
+pattern = "^git commit( .*)?$"
